@@ -1,0 +1,144 @@
+**********************************************************************
+** Visual Studio 2019 Developer Command Prompt v16.3.10
+** Copyright (c) 2019 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community>d:
+
+D:\>cd D:\Codelabs\copperspice-cs-1.6.1\.utfbuild
+
+D:\Codelabs\copperspice-cs-1.6.1\.utfbuild>cmake -G "Ninja"  -DCMAKE_BUILD_TYPE=Release ..
+-- The C compiler identification is MSVC 19.23.28107.0
+-- The CXX compiler identification is MSVC 19.23.28107.0
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64/cl.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The ASM_MASM compiler identification is MSVC
+-- Found assembler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64/ml64.exe
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - not found
+-- Looking for dirent.h
+-- Looking for dirent.h - not found
+-- Looking for features.h
+-- Looking for features.h - not found
+-- Looking for fcntl.h
+-- Looking for fcntl.h - found
+-- Looking for grp.h
+-- Looking for grp.h - not found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for libpq-fe.h
+-- Looking for libpq-fe.h - not found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for pg_config.h
+-- Looking for pg_config.h - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Looking for pthread_np.h
+-- Looking for pthread_np.h - not found
+-- Looking for pwd.h
+-- Looking for pwd.h - not found
+-- Looking for signal.h
+-- Looking for signal.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stdlib.h
+-- Looking for stdlib.h - found
+-- Looking for strings.h
+-- Looking for strings.h - not found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - not found
+-- Looking for cups/cups.h
+-- Looking for cups/cups.h - not found
+-- Looking for mysql/mysql.h
+-- Looking for mysql/mysql.h - not found
+-- Looking for net/if.h
+-- Looking for net/if.h - not found
+-- Looking for netinet/in.h
+-- Looking for netinet/in.h - not found
+-- Looking for sys/eventfd.h
+-- Looking for sys/eventfd.h - not found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for sys/ioctl.h
+-- Looking for sys/ioctl.h - not found
+-- Looking for sys/ipc.h
+-- Looking for sys/ipc.h - not found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - not found
+-- Looking for sys/shm.h
+-- Looking for sys/shm.h - not found
+-- Looking for sys/socket.h
+-- Looking for sys/socket.h - not found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for sys/wait.h
+-- Looking for sys/wait.h - not found
+-- Looking for sys/param.h
+-- Looking for sys/param.h - not found
+-- Looking for 8 include files dlfcn.h, ..., float.h
+-- Looking for 8 include files dlfcn.h, ..., float.h - not found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of size_t
+-- Check size of size_t - done
+-- Checking for 64-bit off_t
+-- Performing Test FILE64_OK
+-- Performing Test FILE64_OK - Failed
+-- Checking for 64-bit off_t - not present
+-- Checking for fseeko/ftello
+-- Performing Test FSEEKO_COMPILE_OK
+-- Performing Test FSEEKO_COMPILE_OK - Failed
+-- Checking for fseeko/ftello - not found
+-- Large File support - not found
+
+Configuring CMake for CopperSpice
+
+
+Search for required Packages
+
+-- Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY) (Required is at least version "1.0")
+-- Could NOT find ZLIB (missing: ZLIB_LIBRARY) (found version "1.2.11")
+-- Could NOT find PostgreSQL (missing: PostgreSQL_LIBRARY PostgreSQL_INCLUDE_DIR PostgreSQL_TYPE_INCLUDE_DIR)
+-- Could NOT find MySQL (missing: MYSQL_INCLUDES MYSQL_LIBRARIES)
+
+
+Enabled CopperSpice libraries
+
+ * Core Gui Multimedia Network OpenGL Script Sql Svg WebKit Xml XmlPatterns
+
+-- The following packages have not been found:
+
+ * OpenSSL (required version >= 1.0), Support for SSL and TLS, <https://openssl.org>
+   Required for HTTPS support
+ * ZLIB, Compression Library, <https://zlib.net>
+   Required for compression support
+ * PostgreSQL, Popular open source database, <http://www.postgresql.org>
+   Required for PostgreSQL database support
+ * MySQL, Popular open source database, <http://www.mysql.com>
+   Required for MySQL database support
+
+
+CopperSpice configured to run on:  Windows 64 bit, Release Mode
+CopperSpice will be built in:      D:/Codelabs/copperspice-cs-1.6.1/.utfbuild
+CopperSpice will be installed in:  C:/Program Files (x86)/copperspice
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Codelabs/copperspice-cs-1.6.1/.utfbuild
+
+D:\Codelabs\copperspice-cs-1.6.1\.utfbuild>
